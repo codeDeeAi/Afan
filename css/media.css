@@ -1,0 +1,64 @@
+/* ==================MEDIA QUERIES============= */
+@media screen and (max-width: 993px){
+    header .navtop{
+        display: none;
+    }
+}
+@media screen and (max-width: 601px){
+        .section1c{
+            margin-top: 12%;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 890px){
+    header .card-title{
+        font-size: medium;
+    }
+    header .card-text{
+        font-size: small;
+    }
+    header .card .btn{
+        font-size: small;
+    }
+}
+@media screen and (max-width: 575px){
+    nav,
+    .section1c .card h5{
+        font-size: small;
+    }
+    .section1c .card p{
+        font-size: smaller;
+    }
+    .section1c .card .btn,
+    .partTwo .card .btn,
+    .partThree .card .btn{
+        font-size: small;
+    }
+
+    footer h5{
+        font-size: small;
+        font-weight: bold;
+    }
+    footer p,
+    nav .dropdown-menu a{
+        font-size: smaller;
+    }
+    .partThree .card h5,
+    .partTwo .card h5{
+        font-size: medium;
+    }
+    .partThree .card p,
+    .partTwo .card p{
+        font-size: small;
+    }
+    
+}   
+@media screen and (max-width: 500px){
+    .endRow p{
+        font-size: smaller;
+    }
+}
+@media screen and (max-width: 760px){
+    .endRow p{
+        font-size: small;
+    }
+}
